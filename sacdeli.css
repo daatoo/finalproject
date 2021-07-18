@@ -1,0 +1,68 @@
+.yearsO{
+    width: 500px;
+    height: 400px;
+    display: inline-block;
+    box-sizing: border-box;
+    background-color: royalblue;
+    margin-right: 40px;
+    border-radius: 50px;
+    box-shadow: 30px -10px 10px  #D80F17;
+    cursor: pointer;
+}
+.yearsO:hover{
+    width: 540px;
+    height: 430px;
+    
+}
+.years{
+    color: white;
+    font-size: 20px;
+}
+.years1{
+    font-size: 50px;
+    color: white;  
+}
+.centri1{
+    text-align: center;
+    position: relative;
+    top: 35%;
+}
+.centri2{
+    text-align: center;
+    position: relative;
+    top: 15%;
+}
+.centri3{
+    text-align: center;
+    position: relative;
+    top: 25%;
+}
+
+.pirobebi{
+    height: 500px;
+    display: inline-block;
+    transform: translate(150px, 100px);
+}
+.down{
+    transform: translateY(158px);
+}
+.down2{
+    transform: translateY(65px);
+}
+<section class="pirobebi">
+        
+        <div class="yearsO down">
+            <p class="years1 centri2">შეძენის გამარტივებული პროცესი</p>
+            <p class="years centri2">შეგარჩევინებთ, შევიძენთ და ჩამოგიყვანთ
+                 მაღალი ხარისხის ავტომობილს, საბაზროზე 
+                 დაბალ ფასად, დაბალპროცენტიანი, გრძელვადიანი დაფინანსებით.</p>
+        </div>
+        <div class="yearsO">
+            <p class="years1 centri1">5 წლამდე განვადება</p>
+            <p class="years centri1">ავტომობილის დაფინანსებით შეძენის შემთხვევაში ისარგებლეთ 5 წლამდე განვადებით</p>
+        </div>
+        <div class="yearsO down2">
+            <p class="years1 centri3">იმპორტი შუამავლის გარეშე</p>
+            <p class="years centri3">კავკასიის ავტოიმპორტით ავტომობილის შეძენა გათვისუფლებთ შეამავლის ფასმანატისგან</p>
+        </div>
+    </section>
